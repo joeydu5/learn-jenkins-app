@@ -9,7 +9,6 @@ pipeline {
                     reuseNode true // Reuse the node for subsequent stages
                 }
             }
-
             steps {
                 sh '''
                     ls -la
